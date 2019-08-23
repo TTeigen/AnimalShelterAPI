@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using MySql.Data.MySqlClient;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using AnimalShelterAPI.Models;
@@ -60,5 +61,14 @@ namespace AnimalShelterAPI.Controllers
         {
             return _db.Animals.Where(x => x.AnimalBreed == breed).ToList();
         }
+
+        // GETRandom api/animals/1
+        [HttpGet("{id}")]
+        public ActionResult<Animal> GetRandom()
+        {
+            Random rnd = new Random();
+            return _db.Animals.Find(rnd.Next(0,_db.Animals.Count()));
+        }
+        
     }
 }

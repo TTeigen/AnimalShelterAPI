@@ -12,6 +12,7 @@ namespace AnimalShelterAPI.Models
         public string Name {get;set;}
         public string AnimalBreed {get;set;}
         public int Age {get;set;}
+        public string Gender {get;set;}
     }
 }
 
