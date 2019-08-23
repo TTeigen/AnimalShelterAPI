@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AnimalShelterAPI.Migrations
 {
     [DbContext(typeof(AnimalShelterAPIContext))]
-    [Migration("20190823180548_Initial")]
+    [Migration("20190823212022_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -27,11 +27,13 @@ namespace AnimalShelterAPI.Migrations
 
                     b.Property<string>("AnimalBreed");
 
+                    b.Property<string>("Gender");
+
                     b.Property<string>("Name");
 
                     b.HasKey("AnimalId");
 
-                    b.ToTable("Animals");
+                    b.ToTable("animals");
                 });
 #pragma warning restore 612, 618
         }

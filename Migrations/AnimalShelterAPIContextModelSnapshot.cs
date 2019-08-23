@@ -25,11 +25,13 @@ namespace AnimalShelterAPI.Migrations
 
                     b.Property<string>("AnimalBreed");
 
+                    b.Property<string>("Gender");
+
                     b.Property<string>("Name");
 
                     b.HasKey("AnimalId");
 
-                    b.ToTable("Animals");
+                    b.ToTable("animals");
                 });
 #pragma warning restore 612, 618
         }

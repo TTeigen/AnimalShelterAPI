@@ -26,8 +26,10 @@ This API stores information about animals available for adoption and allows inte
 
 ## Setup/Installation Requirements
 
-* Clone this repository and >dotnet run in terminal
-* Navigate through the website through the links
+* Clone this repository
+* Run >dotnet ef database update in terminal
+* Run >dotnet run in terminal
+* Use either Swagger or a compatible webapp to navigate the API
 
 ## Known Bugs
 * No known bugs at this time.

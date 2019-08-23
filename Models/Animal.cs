@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AnimalShelterAPI.Models
 {
+    [Table("animals")]
     public class Animal
     {
         [Key]
