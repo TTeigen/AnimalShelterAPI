@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Teigen\\desktop\\AnimalShelterAPI\\AnimalShelterAPI.csproj": {}
+    "c:\\Users\\Teigen\\desktop\\AnimalShelterAPI\\AnimalShelterAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Teigen\\desktop\\AnimalShelterAPI\\AnimalShelterAPI.csproj": {
+    "c:\\Users\\Teigen\\desktop\\AnimalShelterAPI\\AnimalShelterAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Teigen\\desktop\\AnimalShelterAPI\\AnimalShelterAPI.csproj",
+        "projectUniqueName": "c:\\Users\\Teigen\\desktop\\AnimalShelterAPI\\AnimalShelterAPI.csproj",
         "projectName": "AnimalShelterAPI",
-        "projectPath": "C:\\Users\\Teigen\\desktop\\AnimalShelterAPI\\AnimalShelterAPI.csproj",
+        "projectPath": "c:\\Users\\Teigen\\desktop\\AnimalShelterAPI\\AnimalShelterAPI.csproj",
         "packagesPath": "C:\\Users\\Teigen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Teigen\\desktop\\AnimalShelterAPI\\obj\\",
+        "outputPath": "c:\\Users\\Teigen\\desktop\\AnimalShelterAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -50,11 +50,27 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[0.56.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0-rc2, )"
             }
           },
           "imports": [
