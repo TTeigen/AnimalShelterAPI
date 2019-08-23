@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Teigen\\desktop\\AnimalShelterAPI\\AnimalShelterAPI.csproj": {}
+    "C:\\Users\\Teigen\\desktop\\AnimalShelterAPI\\AnimalShelterAPI.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Teigen\\desktop\\AnimalShelterAPI\\AnimalShelterAPI.csproj": {
+    "C:\\Users\\Teigen\\desktop\\AnimalShelterAPI\\AnimalShelterAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Teigen\\desktop\\AnimalShelterAPI\\AnimalShelterAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Teigen\\desktop\\AnimalShelterAPI\\AnimalShelterAPI.csproj",
         "projectName": "AnimalShelterAPI",
-        "projectPath": "c:\\Users\\Teigen\\desktop\\AnimalShelterAPI\\AnimalShelterAPI.csproj",
+        "projectPath": "C:\\Users\\Teigen\\desktop\\AnimalShelterAPI\\AnimalShelterAPI.csproj",
         "packagesPath": "C:\\Users\\Teigen\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Teigen\\desktop\\AnimalShelterAPI\\obj\\",
+        "outputPath": "C:\\Users\\Teigen\\desktop\\AnimalShelterAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -70,7 +70,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.0.0-rc2, )"
+              "version": "[5.0.0-rc, )"
             }
           },
           "imports": [
