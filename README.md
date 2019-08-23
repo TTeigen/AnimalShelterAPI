@@ -11,16 +11,16 @@ This API stores information about animals available for adoption and allows inte
 ### Specs
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
-| **Controller that allows the creation of destinations** | "Disneyland" | Disneyland page with basic information and a list of reviews |
-| Users shoud be able to see/create pages for the various destinations they have been to. |
-| **Controller that allows the creation of reviews** | Phillis wrote: "Disneyland was great! 10/10" | *under Disneyland* "Phillis' review, Average Rating 10/10" |
-| Users can create reviews associated with the various places they have been |
-| **Functionality for reviews to be linked to destinations** | "Disneyland rating 10/10" | Review created, Disneyland's AvgRating = 10+other reviews/number of all reviews for Disneyland |
-|User's need to be able to search a destination and see all reviews associated to the destination, plus a summary of the destination's overall rating.|
-| **Controller to edit reviews** | Change rating from "4" to "6" | _db.Entry(review).State = EntityState.Modified |
-|This controller updates the database with the modified (new) information and recalculates the destination's rating|
-| **Controller to delete reviews** | DELETE this review | _db.Reviews.Remove(thisReview) |
-|This controller takes the review Id and removes the entire review from the database, it also then recalculates the destination's rating| 
+| **Create new information for an animal** | "Tabby cat, 3 years old, male" | Information stored in the database via the POST method of the API. |
+| Users shoud be able to create pages for new animals available at the shelter. |
+| **Update Animal Information** | "Name: Larry Tabby cat, 3 years old, male is now 4 years old" | Larry's age updated in the database to 4 years old |
+| Users can edit information about the animals in the shelter as needed |
+| **See animal details** | "Interested in Tabby cats" | Shows a list of all Tabby cats in the shelter. |
+| Users need to be able to find animals that fit what they are looking for and be able to see details about those animals.|
+| **Ability to delete animals' information** | Remove this animal | _db.Animals.Remove(thisAnimal) |
+| When an animal is adopted or no longer in the shelter the users need to be able to remove that animal's information from the database| 
+| **Swagger implementation** | | |
+| Swagger has been added to this API to help explain functionality of this API.| 
 
 
 
