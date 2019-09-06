@@ -1,4 +1,4 @@
-# Travel API
+# Animal Shelter API
 
 #### _API for an animal shelter, 8/23/2019_
 
